@@ -1,0 +1,84 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="porquinho.png"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/ail.min.css">
+        <link rel="stylesheet" href="styles/cad.css"> 
+        <title>Cadastro</title>
+        </head>
+
+        <body>
+            
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+      
+            <table>
+                <tr>
+                    <td> <img src="animais/porquinho.png" id="imglogo">
+                    </td>
+                    <td>   
+                        <div class="container" id="container">
+                        <div class="form-container sign-up" id="loginaluno">
+                            <!-- CADASTRO ALUNO -->
+                            <form method="post" action="cad_aluno.php">
+                                <h1 style="position: relative; top: 5%; left: 15%;" id="tit">Cadastro para aluno</h1><br>
+                                <input type="text" name="nome" placeholder="nome" style="left: 15%; width: 105%;position: relative;top: 2%;">
+                                <input type="email" name="email" placeholder="email" id="email1" style="position: relative; width: 105%; left: 15%;top: 2%;">
+                                <input type="password" name="senha1" placeholder="senha" id="senha1" style="width: 105%; position:relative; left: 15%;top: 3%;">  
+                                <input type="password" name="senhaa1" placeholder="Confirme a senha" id="senha1" style="position: relative; width: 105%; left: 15%; top: 2%;"><br>
+                                <input type="text" name="pai" placeholder="Nome do seu responsável" id="email1" style="position: relative; width: 105%; left: 15%;" required><br>
+
+                                <input type="checkbox" name="materia[]" value="1" style="position: relative; left: -30%;"><label style="position: relative; top: -4%; left: -10%;">Português</label>
+                                <input type="checkbox" name="materia[]" value="2" style="position: relative; left: -30%; top: 0%;"><label style="position: relative; top: -4%; left: -8%;">Matemática</label>
+                                <input type="checkbox" name="materia[]" value="3" style="position: relative; left: -30%; top: -1%"><label style="position: relative; top: -5%; left: -15%;">Artes</label><br>
+                                <input type="checkbox" name="materia[]" value="4" style="position: relative; left: -30%; top: -3%;"><label style="position: relative; top: -7%; left: -14%;">Inglês</label><br>
+                                <input type="submit" name="btnAluno" id="botao" style="position: relative; top: -8%; left: 20%; background-color: #bc5280; color: white; width: 30%;">
+                            </form>
+                        </div>
+
+                        <!-- CADASTRO RESPONSÁVEL -->
+                        <div class="form-container sign-in">
+                            <form method="post" action="cad_pai.php">
+                            <h1 style="margin-left: 20%;" id="tit">Cadastro para responsável</h1><br>
+                                <input type="text" name="nome" placeholder="nome" style="width: 65%; margin-left: -10%;" required><br>
+                                <input type="email" name="email" placeholder="email" id="email2" style="width: 65%; margin-left: -10%;" required><br>
+                                <input type="password" name="senha" placeholder="senha" id="senha2" style="width: 65%; margin-left: -10%;" required><br>
+                                <input type="password" name="senhaa" placeholder="Confirme a senha" id="senha1" style="width: 65%; margin-left: -10%;" required><br>
+                                <input type="submit" name="btnPai" id="botao" style="margin-left: -10%; background-color: #bc5280; color: white; width: 30%;">
+                            </form>
+                        </div>
+
+                        <!-- TROCA DE USUÁRIO -->
+                        <div class="toggle-container">
+                            <div class="toggle">
+                            <div class="toggle-panel toggle-left">
+                                <h1 style="margin-left: -10%;">Não é o que procurava ?</h1>
+                                <h3 style="position: relative; left: -10%;"><b>Tente como responsável</b></h3>
+                                <button class="hidden" id="login" style="position: relative; left: -10%;">Ir</button>
+                            </div>
+                            <div class="toggle-panel toggle-right">
+                                <h1 style="position: relative; left: 10%;">Seja bem vindo!</h1>
+                                <h3 style="position: relative; left: 10%;"><b>Não é responsável? Tente como aluno.</b></h3>
+                                <button class="hidden" id="register" style="position: relative; left: 10%;">Ir</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script></td>
+                </tr>
+            </table>
+                    
+        </body>
+    </html>

@@ -1,0 +1,69 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="porquinho.png"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/ail.min.css">
+        <link rel="stylesheet" href="styles/login.css"> 
+        <title>Login</title>
+        </head>
+
+        <body>
+            
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+            <table>
+                <tr>
+                    <td> <img src="animais/elefante.png" id="imglogo" style="position: relative; right: 10%;bottom: 20px; width: 837px; height: 744px;">
+                    </td>
+                    <td>   
+                        <div class="container" id="container">
+                            
+                        <div class="form-container sign-up" id="loginaluno">
+                            <form action="login_filho.php" method="post">
+                                <h1 style="margin-left: 30%;" id="tit">Login para aluno</h1><br>
+                                <input type="text" placeholder="nome" name="nome" style="width: 250px;"><br>
+                                <input type="password" placeholder="senha" name="senha" style="width: 250px;"><br>
+                                <button id="botao">Login</button>
+                            </form>
+                        </div>
+                        <div class="form-container sign-in">
+                            <form action="login_pai.php" method="post">
+                            <h1 style="margin-left: 30%;" id="tit">Login para responsável</h1><br>
+                                <input type="text" name="nome" placeholder="nome" id="email2" style="width: 250px; margin-left: -10%;"><br>
+                                <input type="password" name="senha" placeholder="senha" id="senha2" style="width: 250px; margin-left: -10%;"><br>
+                                <button id="botao">Login</button>
+                            </form>
+                        </div>
+                        <div class="toggle-container">
+                            <div class="toggle">
+                            <div class="toggle-panel toggle-left">
+                                <h1>Não é o que procurava ?</h1>
+                                <p>Tente como responsável</p>
+                                <button class="hidden" id="login">Ir</button>
+                            </div>
+                            <div class="toggle-panel toggle-right">
+                                <h1>Seja bem vindo!</h1>
+                                <p>Não é administrador? Tente como aluno</p>
+                                <button class="hidden" id="register">Ir</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script></td>
+                </tr>
+            </table>
+                    
+        </body>
+    </html>
