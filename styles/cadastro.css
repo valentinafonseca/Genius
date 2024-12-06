@@ -1,0 +1,129 @@
+/* computador */
+@media screen and (min-width:1024px){
+body{
+    background-color:#FACEE1;
+    height: 90vh;
+}
+#a{
+    background-color: #f8f7f4;
+    width: 450px;
+    height: 450px;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: -38%;
+
+}
+#f{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 450px;
+background-color:#f2f4f8;
+height: 450px;
+border-radius: 15px;
+/* align-items: center; */
+/* margin-left: auto; */
+margin-left: 20%;
+margin-top: 20%;
+}
+#porco{
+    width: 750px;
+    height: 750px;
+    position: relative;
+    right: 55%;
+    margin-top: 7%;
+}
+#form{
+    background-color: #fac3da;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+}
+#botao{
+    background-color: #bc5280;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    width: 30px;
+    margin-left: 90px;
+}
+
+
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width:1023px){
+body{
+    background-color:#FACEE1;
+}
+      #f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    background-color:#f2f4f8;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: -50%;
+    margin-top: 80%;
+    }
+    #porco{
+        width: 450px;
+        height: 450px;
+        position: relative;
+        right: -50%;
+        margin-top: -125%;
+    }
+    #form{
+        background-color: #fac3da;
+        border: none;
+        border-radius: 30px;
+        width: 300px;
+    }
+    #botao{
+        background-color: #bc5280;
+        border: none;
+        color: white;
+        border-radius: 30px;
+        width: 120px;
+        margin-left: 90px;
+    }
+}
+/* celular */
+@media screen and (max-width: 767px) and (min-width: 320px){
+    body{
+        background-color:#FACEE1;
+    }
+          #f{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        background-color:#f2f4f8;
+        height: 450px;
+        border-radius: 15px;
+        margin-left: -30%;
+        margin-top: 65%;
+        }
+        #porco{
+            width: 250px;
+            height: 250px;
+            position: relative;
+            right: -75%;
+            margin-top: -175%;
+        }
+        #form{
+            background-color: #fac3da;
+            border: none;
+            border-radius: 30px;
+            width: 200px;
+        }
+        #botao{
+            background-color: #bc5280;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            width: 120px;
+            margin-left: 50px;
+        }
+}

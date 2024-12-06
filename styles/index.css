@@ -1,0 +1,257 @@
+@media (min-width: 1024px){ 
+body {
+    margin: 0;
+    background-color: #8d58ef;
+}
+.carousel-item {
+    height: 100vh;
+    background: #000;
+    transition: transform 0.3s ease-in-out; 
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+#btn{
+    background-color: 	#A8E1D3;
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    width: 270px;
+    height: 50px;
+    margin: auto;
+}
+#qq{
+    width: 100%;
+    height: 768px;
+    background-color: #d56666;
+    margin: auto;
+    top:50%;
+    text-align: center;
+}
+#log{
+    position: relative;
+    left: 15%;
+    width: 25%;
+    top:11%;
+    text-align: center;
+}
+#cad{
+    margin: auto;
+    width: 25%;
+    position: relative;
+    bottom: 35%;
+    left:20%;
+}
+#qs{
+    width: 100%;
+    height: 768px;
+    background-color: #8d58ef;
+}
+#rodape{
+    width: 100%;
+    height: 330px;
+    background-color: #f2f4f8;
+}
+.r1{
+    color: linear-gradient(90deg, red, yellow, green, blue, purple);
+    position:relative;
+    left:5%;
+    width: 20%;
+}
+.r2{
+    position: relative;
+    bottom:80%;
+    left:50%; 
+    color: #000; 
+    width: 20%;
+}
+.r3{
+    position: relative;
+    bottom: 75%; 
+    left: 50%; 
+    color: #000;
+    width: 20%;
+}
+.r4{
+    position: relative; 
+    left: 50%;
+    bottom: 72%; 
+    color: #000;
+    width: 20%;
+}
+.r11{
+    color: #000; 
+    text-align:justify;
+    font-size: 14px;
+    width: 515px;
+    position: relative; 
+    left:50px;top:5px;
+}
+.r22{
+    font-size: 13.5px;
+    position:relative;
+    left:50%;
+    bottom: 76%;
+    width: 40%;
+}
+.r33{
+    font-size: 13.5px; 
+    position: relative; 
+    left: 50%;
+    bottom: 73%;
+    width: 40%;
+}
+.r44{
+    font-size: 13.5px;
+    position: relative;
+    bottom: 72%; 
+    left:50%;
+    width: 40%;
+}
+}
+@media (min-width: 414px) and (max-width: 896px){
+    body {
+        margin: 0;
+        background-color: #8d58ef;
+    }
+    .carousel-item {
+        height: 100%;
+        background: #000;
+        transition: transform 0.3s ease-in-out; 
+    }
+    .carousel-item img {
+        object-fit: cover;
+        height: 40%;
+        width: 100%;
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+    }
+    #btn{
+        background-color: 	#A8E1D3;
+        display: flex;
+        border: none;
+        border-radius: 20px;
+        width: 270px;
+        height: 50px;
+        margin: auto;
+    }
+    #qq{
+        width: 100%;
+        height: 956px;
+        background-color: #d56666;
+        margin: auto;
+        top:50%;
+        text-align: center;
+    }
+    #log{
+        position: relative;
+        left: 30%;
+        width: 250px;
+        height: 200px;
+        top:-4%;
+        text-align: center;
+    }
+    #cad{
+        margin: auto;
+        width: 250px;
+        height: 200px;
+        position: relative;
+        bottom: -18%;
+        left:4%;
+    }
+    #qs{
+        width: 100%;
+        height: 768px;
+        background-color: #8d58ef;
+    }
+    #rodape{
+        width: 100%;
+        height: 530px;
+        margin-top: 60%;
+        background-color: #f2f4f8;
+    }
+    #aaa{
+        visibility: hidden;
+    }
+    #bbb{
+        visibility: hidden;
+    }
+    #ccc{
+        visibility: hidden;
+    }
+    #obj{
+        margin-left: -3%;
+    }
+    .r1{
+        color: #000;
+        position:relative;
+        left:7%;
+        width: 20%;
+    }
+    .r2{
+        position: relative;
+        bottom:90%;
+        left:50%; 
+        color: #000; 
+        width: 20%;
+    }
+    .r3{
+        position: relative;
+        bottom: 85%; 
+        left: 50%; 
+        color: #000;
+        width: 20%;
+    }
+    .r4{
+        position: relative; 
+        left: 50%;
+        bottom: 85%; 
+        color: #000;
+        width: 20%;
+    }
+    .r11{
+        color: #000; 
+        text-align:left;
+        font-size: 14px;
+        width: 255px;
+        position: relative; 
+        left:5%;
+        top:5px;
+    }
+    .r22{
+        font-size: 13.5px;
+        position:relative;
+        left:52%;
+        bottom: 89%;
+        width: 40%;
+    }
+    .r33{
+        font-size: 13.5px; 
+        position: relative; 
+        left: 52%;
+        bottom: 85%;
+        width: 40%;
+    }
+    .r44{
+        font-size: 13.5px;
+        position: relative;
+        bottom: 84%; 
+        left:52%;
+        width: 40%;
+    }
+    .objetivo{
+        text-align: left;
+    }
+}
