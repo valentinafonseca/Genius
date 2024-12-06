@@ -1,0 +1,39 @@
+
+body{
+background-image: url(../ing/fundo.jpeg);
+background-repeat: no-repeat;
+background-size: cover; 
+font-family: 'Gulya', sans-serif;  
+}
+#setad{width:50px; 
+height:50px;
+position:relative;
+left:90%;
+bottom: 70px;
+background: transparent;
+} 
+#certo{
+    width:50px;
+    height:50px;
+    position:relative;
+    left:50px;  
+}
+.aranha{
+    margin-left: 15%;
+    margin-top: 3.5%;
+    height:150px ;
+    width: 150px;
+}
+td{
+width: 50px;
+}
+#cor{
+
+        background-color:rgba(10,63,54, 0.7);
+        height: 450px;
+        width: 80%;
+        margin: auto;
+        display: table;
+        border-radius: 30px;
+}
+
